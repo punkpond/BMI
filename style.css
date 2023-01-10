@@ -1,0 +1,47 @@
+/* Add some basic styling to the page */
+@font-face {
+            font-family: lita;
+            src: url(lita.ttf);
+        }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(232, 170, 53);
+  }
+  /* Style the form and its labels */
+  form {
+    margin: 0 auto;
+    width: 280px;
+    padding: 80px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(250, 132, 6);
+    font-family: lita;
+  }
+  h1{
+    font-size: 48pt;
+    font-family: lita;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: lita;
+  }
+  /* Change the color of the result message based on the BMI*/
+  .underweight{
+    background-color: orange;
+  }
+  .normal {
+    background-color: green;
+  }
+  .overweight {
+    background-color: #ff5733;
+  }
+  .obese {
+    background-color: red;
+  }
+ button{
+  font-family: lita;
+  font-size: 16pt;
+ }
+ 
